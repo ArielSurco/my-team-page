@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --footer-text-color: #a9a9a9;
+}
