@@ -137,6 +137,11 @@ body {
     column-gap: 66px;
   }
 
+  .member-card__photo {
+    width: calc(100% - 22px);
+    margin-bottom: 15px;
+  }
+
   .member-card__job-title {
     font-size: 1.2rem;
   }
@@ -151,5 +156,9 @@ body {
 
   .member-card:nth-of-type(3n-1) {
     margin-top: 100px;
+  }
+
+  .footer {
+    margin-top: 115px;
   }
 }
