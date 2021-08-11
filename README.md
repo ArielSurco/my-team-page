@@ -48,4 +48,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [ArielSurco](https://github.com/ArielSurco)
+- GitHub [@ArielSurco](https://github.com/ArielSurco)
