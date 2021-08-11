@@ -13,3 +13,98 @@ html {
   --text-color: #000000;
   --footer-text-color: #a9a9a9;
 }
+
+body {
+  background-color: var(--bg-color);
+}
+
+.main {
+  color: var(--text-color);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90.4%;
+  max-width: 925px;
+}
+
+.main > .title {
+  margin-top: 71px;
+  margin-bottom: 38px;
+  font-family: "PT Serif", serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.introduction {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 38px;
+}
+
+.introduction > .introduction__header {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.introduction > .introduction__about-us {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.main > .members {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.member-card {
+  position: relative;
+}
+
+.member-card > .member-card__photo {
+  width: calc(100% - 16px);
+  margin-bottom: 10px;
+}
+
+.member-card > .member-card__job-title {
+  position: absolute;
+  right: 0;
+  font-family: "PT Serif", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+
+.member-card > .member-card__name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.member-card:nth-of-type(2n) {
+  margin-top: 48px;
+}
+
+.footer {
+  margin-top: 135px;
+  height: 40px;
+  text-align: center;
+}
+
+.footer > .author {
+  color: var(--footer-text-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.author > .author--username {
+  color: inherit;
+  font-weight: 700;
+}
